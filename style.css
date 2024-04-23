@@ -1,0 +1,128 @@
+html{
+    height: 100px;
+}
+body{
+    background-color: #91201C;
+   
+    height: 6000px;
+}
+body h1{
+color:#E38109;
+margin-top: -50px;
+text-align: center;
+position:static;
+font-family: "HeaderFont";
+font-weight: 1000;
+}
+body h3{
+    text-align: center;
+    color: #E38109;
+    margin-top: -20px;
+}
+body .topnav {
+    display: flex; /* Enable Flexbox layout */
+    justify-content:space-between; /* Distribute items along the main axis (horizontally) */
+    margin-top: -9px;
+    overflow: hidden;
+    background-color: #91201C;
+    border-color: #383838;  
+    border-width: 1px;  
+    border-style: inset; 
+    z-index: inherit;
+    
+    
+}
+
+  
+body .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: "HeaderFont";
+    font-size: 17px;
+    
+  }
+  .topnav a.active{
+    
+  }
+  .topnav a.two{
+    
+  }
+  .topnav a.three{
+   
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: white;
+    color: black;
+  }
+  body .Image1Center {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    text-align: center;
+  }
+  
+  .Image1Center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	    
+    padding-bottom: 500px;
+  }
+  
+  .Image1Center img {
+   
+  }
+  
+
+body .rectangle {
+    
+    padding-bottom: -500px;
+    background-color: white;    
+    height: 80px;
+}
+@font-face {
+    font-family: "HeaderFont";
+    src: url("Font/33535gillsansmt.woff");
+  }
+
+
+ /* HTML: <div class="triangle"></div> */
+.triangle {
+    --b:2px; /* control the border thickness */  
+    width: 320px;
+    height: 120px;
+    aspect-ratio: 4/cos(10deg);
+    clip-path: polygon(50% 100%,100% 0,0 0,50% 100%,50% calc(100% - var(--b)),calc(var(--b)*cos(30deg)) calc(var(--b)/2),calc(100% - var(--b)*cos(30deg)) calc(var(--b)/2),50% calc(100% - var(--b)));
+    background: #383838;
+    position:absolute;    
+    margin-left: 520px;    
+    
+  }
+  .Home{
+    height: 1024px;
+  }
+  
+
+
+
+
+
+
+
+    
